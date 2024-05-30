@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "data-quality"
+version = "0.1.0"
+description = ""
+authors = ["Deborah Foroni <deborah.foroni@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
