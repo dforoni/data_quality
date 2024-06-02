@@ -1,2 +1,2 @@
 def funcao_ola_mundo():
-    pass
+    return "ola, mundo"
