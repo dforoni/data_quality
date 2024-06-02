@@ -2,7 +2,7 @@
 
 Estrutura de teste de qualidade dos dados.
 
-# Fluxograma
+## Fluxograma
 
 ```mermaid
 graph TD;
@@ -14,3 +14,7 @@ graph TD;
     Y -->|Falha| Z[Alerta de Erro];
     Y -->|Sucesso| D[Salvar no DuckDB];
 ```
+
+## Contrato de qualidade de dados
+
+::: app.schema.DataModel

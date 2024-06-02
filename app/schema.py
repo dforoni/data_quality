@@ -6,7 +6,7 @@ class DataModel(pa.SchemaModel):
     """
     Modelo de dados para contratos, usando pandas e pandera para validação de esquema.
 
-    Atributos:
+    Attributes:
         data_assinatura_contrato (pa.typing.Series[str]): Data de assinatura do contrato. Não pode ser nulo.
         data_publicacao_dou (pa.typing.Series[str]): Data de publicação no Diário Oficial da União. Não pode ser nulo.
         data_inicio_vigencia (pa.typing.Series[str]): Data de início de vigência do contrato. Não pode ser nulo.
@@ -22,7 +22,7 @@ class DataModel(pa.SchemaModel):
         situacao (pa.typing.Series[str]): Situação do contrato. Não pode ser nulo.
         valor_contratado (pa.typing.Series[str]): Valor contratado. Não pode ser nulo.
     """
-    
+
     data_assinatura_contrato: pa.typing.Series[str] = Field(nullable=False)
     data_publicacao_dou: pa.typing.Series[str] = Field(nullable=False)
     data_inicio_vigencia: pa.typing.Series[str] = Field(nullable=False)
