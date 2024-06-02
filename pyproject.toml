@@ -13,6 +13,8 @@ mkdocs-material = "^9.5.25"
 mkdocstrings = "^0.25.1"
 isort = "^5.13.2"
 pytest = "^8.2.1"
+tasks = "^2.8.0"
+taskipy = "^1.12.2"
 
 
 [build-system]
